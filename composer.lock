@@ -8396,22 +8396,22 @@
         },
         {
             "name": "spiral/core",
-            "version": "3.15.8",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/core.git",
-                "reference": "e6b06d6c1e88139fd66463ce842ccdc5c204fc16"
+                "reference": "700db0337f7ba4d8ce87d102bc51c5820182edec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/core/zipball/e6b06d6c1e88139fd66463ce842ccdc5c204fc16",
-                "reference": "e6b06d6c1e88139fd66463ce842ccdc5c204fc16",
+                "url": "https://api.github.com/repos/spiral/core/zipball/700db0337f7ba4d8ce87d102bc51c5820182edec",
+                "reference": "700db0337f7ba4d8ce87d102bc51c5820182edec",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
                 "psr/container": "^1.1|^2.0",
-                "spiral/security": "^3.15.8"
+                "spiral/security": "^3.16"
             },
             "provide": {
                 "psr/container-implementation": "^1.1|^2.0"
@@ -8424,7 +8424,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.15.x-dev"
+                    "dev-master": "3.16.x-dev"
                 }
             },
             "autoload": {
@@ -8443,11 +8443,11 @@
                 },
                 {
                     "name": "Pavel Butchnev (butschster)",
-                    "email": "pavel.buchnev@spiralscout.com"
+                    "homepage": "https://github.com/butschster"
                 },
                 {
                     "name": "Aleksei Gagarin (roxblnfk)",
-                    "email": "alexey.gagarin@spiralscout.com"
+                    "homepage": "https://github.com/roxblnfk"
                 },
                 {
                     "name": "Maksim Smakouz (msmakouz)",
@@ -8466,7 +8466,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-22T14:03:55+00:00"
+            "time": "2025-12-14T11:35:42+00:00"
         },
         {
             "name": "spiral/goridge",
@@ -8557,33 +8557,33 @@
         },
         {
             "name": "spiral/hmvc",
-            "version": "3.15.8",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/hmvc.git",
-                "reference": "533b441af0fa4bcf8fda2c763207b4bf52e34e40"
+                "reference": "cff7c60a72fd8a590f5d7e13a07244b39627aa5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/hmvc/zipball/533b441af0fa4bcf8fda2c763207b4bf52e34e40",
-                "reference": "533b441af0fa4bcf8fda2c763207b4bf52e34e40",
+                "url": "https://api.github.com/repos/spiral/hmvc/zipball/cff7c60a72fd8a590f5d7e13a07244b39627aa5d",
+                "reference": "cff7c60a72fd8a590f5d7e13a07244b39627aa5d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
                 "psr/event-dispatcher": "^1.0",
-                "spiral/core": "^3.15.8",
-                "spiral/interceptors": "^3.15.8"
+                "spiral/core": "^3.16",
+                "spiral/interceptors": "^3.16"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.5.41",
-                "spiral/testing": "^2.8.3",
+                "spiral/testing": "^2.12",
                 "vimeo/psalm": "^6.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.15.x-dev"
+                    "dev-master": "3.16.x-dev"
                 }
             },
             "autoload": {
@@ -8602,11 +8602,11 @@
                 },
                 {
                     "name": "Pavel Butchnev (butschster)",
-                    "email": "pavel.buchnev@spiralscout.com"
+                    "homepage": "https://github.com/butschster"
                 },
                 {
                     "name": "Aleksei Gagarin (roxblnfk)",
-                    "email": "alexey.gagarin@spiralscout.com"
+                    "homepage": "https://github.com/roxblnfk"
                 },
                 {
                     "name": "Maksim Smakouz (msmakouz)",
@@ -8627,36 +8627,36 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-22T14:03:19+00:00"
+            "time": "2025-12-14T11:38:02+00:00"
         },
         {
             "name": "spiral/interceptors",
-            "version": "3.15.8",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/interceptors.git",
-                "reference": "511da02bb400c64dde27bb87b63df6d7007bceef"
+                "reference": "715f274b35d10565f1c910eb573162179e33b0e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/interceptors/zipball/511da02bb400c64dde27bb87b63df6d7007bceef",
-                "reference": "511da02bb400c64dde27bb87b63df6d7007bceef",
+                "url": "https://api.github.com/repos/spiral/interceptors/zipball/715f274b35d10565f1c910eb573162179e33b0e7",
+                "reference": "715f274b35d10565f1c910eb573162179e33b0e7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
                 "psr/event-dispatcher": "^1.0",
-                "spiral/core": "^3.15.8"
+                "spiral/core": "^3.16"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.5.41",
-                "spiral/testing": "^2.8.3",
+                "spiral/testing": "^2.12",
                 "vimeo/psalm": "^6.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.15.x-dev"
+                    "dev-master": "3.16.x-dev"
                 }
             },
             "autoload": {
@@ -8675,11 +8675,11 @@
                 },
                 {
                     "name": "Pavel Butchnev (butschster)",
-                    "email": "pavel.buchnev@spiralscout.com"
+                    "homepage": "https://github.com/butschster"
                 },
                 {
                     "name": "Aleksei Gagarin (roxblnfk)",
-                    "email": "alexey.gagarin@spiralscout.com"
+                    "homepage": "https://github.com/roxblnfk"
                 },
                 {
                     "name": "Maksim Smakouz (msmakouz)",
@@ -8705,26 +8705,26 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-22T14:03:19+00:00"
+            "time": "2025-12-14T11:34:19+00:00"
         },
         {
             "name": "spiral/logger",
-            "version": "3.15.8",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/logger.git",
-                "reference": "35553e8badee07dbb8290a7b73aa416c78e4c390"
+                "reference": "bd902bbcdbb6f247a51a75fc716dba3831966f06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/logger/zipball/35553e8badee07dbb8290a7b73aa416c78e4c390",
-                "reference": "35553e8badee07dbb8290a7b73aa416c78e4c390",
+                "url": "https://api.github.com/repos/spiral/logger/zipball/bd902bbcdbb6f247a51a75fc716dba3831966f06",
+                "reference": "bd902bbcdbb6f247a51a75fc716dba3831966f06",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
                 "psr/log": "1 - 3",
-                "spiral/core": "^3.15.8"
+                "spiral/core": "^3.16"
             },
             "require-dev": {
                 "mockery/mockery": "^1.6.12",
@@ -8734,7 +8734,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.15.x-dev"
+                    "dev-master": "3.16.x-dev"
                 }
             },
             "autoload": {
@@ -8753,11 +8753,11 @@
                 },
                 {
                     "name": "Pavel Butchnev (butschster)",
-                    "email": "pavel.buchnev@spiralscout.com"
+                    "homepage": "https://github.com/butschster"
                 },
                 {
                     "name": "Aleksei Gagarin (roxblnfk)",
-                    "email": "alexey.gagarin@spiralscout.com"
+                    "homepage": "https://github.com/roxblnfk"
                 },
                 {
                     "name": "Maksim Smakouz (msmakouz)",
@@ -8776,20 +8776,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-22T14:03:39+00:00"
+            "time": "2025-12-14T11:36:52+00:00"
         },
         {
             "name": "spiral/roadrunner",
-            "version": "v2025.1.5",
+            "version": "v2025.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roadrunner-server/roadrunner.git",
-                "reference": "d68bee29eb689c5310f8ede935c95a13bd7cc153"
+                "reference": "207b2b4ba75f2529ecccf801b3d8dd7038f22732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roadrunner-server/roadrunner/zipball/d68bee29eb689c5310f8ede935c95a13bd7cc153",
-                "reference": "d68bee29eb689c5310f8ede935c95a13bd7cc153",
+                "url": "https://api.github.com/repos/roadrunner-server/roadrunner/zipball/207b2b4ba75f2529ecccf801b3d8dd7038f22732",
+                "reference": "207b2b4ba75f2529ecccf801b3d8dd7038f22732",
                 "shasum": ""
             },
             "type": "metapackage",
@@ -8817,7 +8817,7 @@
                 "chat": "https://discord.gg/V6EK4he",
                 "docs": "https://docs.roadrunner.dev/",
                 "issues": "https://github.com/roadrunner-server/roadrunner/issues",
-                "source": "https://github.com/roadrunner-server/roadrunner/tree/v2025.1.5"
+                "source": "https://github.com/roadrunner-server/roadrunner/tree/v2025.1.6"
             },
             "funding": [
                 {
@@ -8825,20 +8825,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-13T17:24:29+00:00"
+            "time": "2025-12-11T14:45:22+00:00"
         },
         {
             "name": "spiral/roadrunner-cli",
-            "version": "v2.7.1",
+            "version": "v2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roadrunner-php/cli.git",
-                "reference": "a51ff873654744821437e76406df7b6a0d4dbfe1"
+                "reference": "54909d3fff22d34d1a6e894785f3df9dca0e2e8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roadrunner-php/cli/zipball/a51ff873654744821437e76406df7b6a0d4dbfe1",
-                "reference": "a51ff873654744821437e76406df7b6a0d4dbfe1",
+                "url": "https://api.github.com/repos/roadrunner-php/cli/zipball/54909d3fff22d34d1a6e894785f3df9dca0e2e8c",
+                "reference": "54909d3fff22d34d1a6e894785f3df9dca0e2e8c",
                 "shasum": ""
             },
             "require": {
@@ -8847,9 +8847,9 @@
                 "php": ">=8.1",
                 "spiral/roadrunner-worker": "^2 || ^3",
                 "spiral/tokenizer": "^2.13 || ^3.15",
-                "symfony/console": "^5.3 || ^6.0 || ^7.0",
-                "symfony/http-client": "^4.4.51 || ^5.4.49 || ^6.4.17 || ^7.2",
-                "symfony/yaml": "^5.4.49 || ^6.4.17 || ^7.2"
+                "symfony/console": "^5.3 || ^6.0 || ^7.0 || ^8.0",
+                "symfony/http-client": "^4.4.51 || ^5.4.49 || ^6.4.17 || ^7.2 || ^8.0",
+                "symfony/yaml": "^5.4.49 || ^6.4.17 || ^7.2 || ^8.0"
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "^1.2",
@@ -8886,7 +8886,7 @@
                 "chat": "https://discord.gg/V6EK4he",
                 "docs": "https://docs.roadrunner.dev",
                 "issues": "https://github.com/roadrunner-server/roadrunner/issues",
-                "source": "https://github.com/roadrunner-php/cli/tree/v2.7.1"
+                "source": "https://github.com/roadrunner-php/cli/tree/v2.7.2"
             },
             "funding": [
                 {
@@ -8894,7 +8894,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-18T12:24:20+00:00"
+            "time": "2025-12-14T19:18:46+00:00"
         },
         {
             "name": "spiral/roadrunner-http",
@@ -9073,33 +9073,33 @@
         },
         {
             "name": "spiral/security",
-            "version": "3.15.8",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/security.git",
-                "reference": "a7a7a83cb474f70c02ffd00899f9f87b1d5c1d0e"
+                "reference": "e47affcd2c1718209cae1fe0c3cf54c522db7b1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/security/zipball/a7a7a83cb474f70c02ffd00899f9f87b1d5c1d0e",
-                "reference": "a7a7a83cb474f70c02ffd00899f9f87b1d5c1d0e",
+                "url": "https://api.github.com/repos/spiral/security/zipball/e47affcd2c1718209cae1fe0c3cf54c522db7b1a",
+                "reference": "e47affcd2c1718209cae1fe0c3cf54c522db7b1a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
-                "spiral/core": "^3.15.8",
-                "spiral/hmvc": "^3.15.8"
+                "spiral/core": "^3.16",
+                "spiral/hmvc": "^3.16"
             },
             "require-dev": {
                 "mockery/mockery": "^1.6.12",
                 "phpunit/phpunit": "^10.5.41",
-                "spiral/console": "^3.15.8",
+                "spiral/console": "^3.16",
                 "vimeo/psalm": "^6.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.15.x-dev"
+                    "dev-master": "3.16.x-dev"
                 }
             },
             "autoload": {
@@ -9118,11 +9118,11 @@
                 },
                 {
                     "name": "Pavel Butchnev (butschster)",
-                    "email": "pavel.buchnev@spiralscout.com"
+                    "homepage": "https://github.com/butschster"
                 },
                 {
                     "name": "Aleksei Gagarin (roxblnfk)",
-                    "email": "alexey.gagarin@spiralscout.com"
+                    "homepage": "https://github.com/roxblnfk"
                 },
                 {
                     "name": "Maksim Smakouz (msmakouz)",
@@ -9141,41 +9141,41 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-22T14:03:55+00:00"
+            "time": "2025-12-14T11:39:30+00:00"
         },
         {
             "name": "spiral/tokenizer",
-            "version": "3.15.8",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/tokenizer.git",
-                "reference": "0e1141ec8e92a55199a2e705f122b91c5964c42f"
+                "reference": "11611160800f959ff0ea329470b939a2c0898d1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/tokenizer/zipball/0e1141ec8e92a55199a2e705f122b91c5964c42f",
-                "reference": "0e1141ec8e92a55199a2e705f122b91c5964c42f",
+                "url": "https://api.github.com/repos/spiral/tokenizer/zipball/11611160800f959ff0ea329470b939a2c0898d1e",
+                "reference": "11611160800f959ff0ea329470b939a2c0898d1e",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
                 "php": ">=8.1",
-                "spiral/core": "^3.15.8",
-                "spiral/logger": "^3.15.8",
-                "symfony/finder": "^5.4.45 || ^6.4.17 || ^7.2"
+                "spiral/core": "^3.16",
+                "spiral/logger": "^3.16",
+                "symfony/finder": "^6.4.30 || ^7.4 || ^8.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.6.12",
                 "phpunit/phpunit": "^10.5.41",
                 "spiral/attributes": "^2.8|^3.0",
-                "spiral/boot": "^3.15.8",
-                "spiral/files": "^3.15.8",
+                "spiral/boot": "^3.16",
+                "spiral/files": "^3.16",
                 "vimeo/psalm": "^6.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.15.x-dev"
+                    "dev-master": "3.16.x-dev"
                 }
             },
             "autoload": {
@@ -9194,11 +9194,11 @@
                 },
                 {
                     "name": "Pavel Butchnev (butschster)",
-                    "email": "pavel.buchnev@spiralscout.com"
+                    "homepage": "https://github.com/butschster"
                 },
                 {
                     "name": "Aleksei Gagarin (roxblnfk)",
-                    "email": "alexey.gagarin@spiralscout.com"
+                    "homepage": "https://github.com/roxblnfk"
                 },
                 {
                     "name": "Maksim Smakouz (msmakouz)",
@@ -9217,7 +9217,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-22T14:05:18+00:00"
+            "time": "2025-12-14T11:39:35+00:00"
         },
         {
             "name": "stripe/stripe-php",
@@ -9532,16 +9532,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.3.6",
+            "version": "v7.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "c28ad91448f86c5f6d9d2c70f0cf68bf135f252a"
+                "reference": "6d9f0fbf2ec2e9785880096e3abd0ca0c88b506e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/c28ad91448f86c5f6d9d2c70f0cf68bf135f252a",
-                "reference": "c28ad91448f86c5f6d9d2c70f0cf68bf135f252a",
+                "url": "https://api.github.com/repos/symfony/console/zipball/6d9f0fbf2ec2e9785880096e3abd0ca0c88b506e",
+                "reference": "6d9f0fbf2ec2e9785880096e3abd0ca0c88b506e",
                 "shasum": ""
             },
             "require": {
@@ -9549,7 +9549,7 @@
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/service-contracts": "^2.5|^3",
-                "symfony/string": "^7.2"
+                "symfony/string": "^7.2|^8.0"
             },
             "conflict": {
                 "symfony/dependency-injection": "<6.4",
@@ -9563,16 +9563,16 @@
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^6.4|^7.0",
-                "symfony/dependency-injection": "^6.4|^7.0",
-                "symfony/event-dispatcher": "^6.4|^7.0",
-                "symfony/http-foundation": "^6.4|^7.0",
-                "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/lock": "^6.4|^7.0",
-                "symfony/messenger": "^6.4|^7.0",
-                "symfony/process": "^6.4|^7.0",
-                "symfony/stopwatch": "^6.4|^7.0",
-                "symfony/var-dumper": "^6.4|^7.0"
+                "symfony/config": "^6.4|^7.0|^8.0",
+                "symfony/dependency-injection": "^6.4|^7.0|^8.0",
+                "symfony/event-dispatcher": "^6.4|^7.0|^8.0",
+                "symfony/http-foundation": "^6.4|^7.0|^8.0",
+                "symfony/http-kernel": "^6.4|^7.0|^8.0",
+                "symfony/lock": "^6.4|^7.0|^8.0",
+                "symfony/messenger": "^6.4|^7.0|^8.0",
+                "symfony/process": "^6.4|^7.0|^8.0",
+                "symfony/stopwatch": "^6.4|^7.0|^8.0",
+                "symfony/var-dumper": "^6.4|^7.0|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -9606,7 +9606,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.3.6"
+                "source": "https://github.com/symfony/console/tree/v7.4.1"
             },
             "funding": [
                 {
@@ -9626,7 +9626,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-04T01:21:42+00:00"
+            "time": "2025-12-05T15:23:39+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -10007,23 +10007,23 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v7.3.5",
+            "version": "v7.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "9f696d2f1e340484b4683f7853b273abff94421f"
+                "reference": "340b9ed7320570f319028a2cbec46d40535e94bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/9f696d2f1e340484b4683f7853b273abff94421f",
-                "reference": "9f696d2f1e340484b4683f7853b273abff94421f",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/340b9ed7320570f319028a2cbec46d40535e94bd",
+                "reference": "340b9ed7320570f319028a2cbec46d40535e94bd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2"
             },
             "require-dev": {
-                "symfony/filesystem": "^6.4|^7.0"
+                "symfony/filesystem": "^6.4|^7.0|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -10051,7 +10051,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v7.3.5"
+                "source": "https://github.com/symfony/finder/tree/v7.4.0"
             },
             "funding": [
                 {
@@ -10071,7 +10071,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-10-15T18:45:57+00:00"
+            "time": "2025-11-05T05:42:40+00:00"
         },
         {
             "name": "symfony/html-sanitizer",
@@ -10148,16 +10148,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v7.3.6",
+            "version": "v7.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "3c0a55a2c8e21e30a37022801c11c7ab5a6cb2de"
+                "reference": "26cc224ea7103dda90e9694d9e139a389092d007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/3c0a55a2c8e21e30a37022801c11c7ab5a6cb2de",
-                "reference": "3c0a55a2c8e21e30a37022801c11c7ab5a6cb2de",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/26cc224ea7103dda90e9694d9e139a389092d007",
+                "reference": "26cc224ea7103dda90e9694d9e139a389092d007",
                 "shasum": ""
             },
             "require": {
@@ -10188,12 +10188,13 @@
                 "php-http/httplug": "^1.0|^2.0",
                 "psr/http-client": "^1.0",
                 "symfony/amphp-http-client-meta": "^1.0|^2.0",
-                "symfony/dependency-injection": "^6.4|^7.0",
-                "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/messenger": "^6.4|^7.0",
-                "symfony/process": "^6.4|^7.0",
-                "symfony/rate-limiter": "^6.4|^7.0",
-                "symfony/stopwatch": "^6.4|^7.0"
+                "symfony/cache": "^6.4|^7.0|^8.0",
+                "symfony/dependency-injection": "^6.4|^7.0|^8.0",
+                "symfony/http-kernel": "^6.4|^7.0|^8.0",
+                "symfony/messenger": "^6.4|^7.0|^8.0",
+                "symfony/process": "^6.4|^7.0|^8.0",
+                "symfony/rate-limiter": "^6.4|^7.0|^8.0",
+                "symfony/stopwatch": "^6.4|^7.0|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -10224,7 +10225,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v7.3.6"
+                "source": "https://github.com/symfony/http-client/tree/v7.4.1"
             },
             "funding": [
                 {
@@ -10244,7 +10245,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-05T17:41:46+00:00"
+            "time": "2025-12-04T21:12:57+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -11848,22 +11849,23 @@
         },
         {
             "name": "symfony/string",
-            "version": "v7.3.4",
+            "version": "v7.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "f96476035142921000338bad71e5247fbc138872"
+                "reference": "d50e862cb0a0e0886f73ca1f31b865efbb795003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/f96476035142921000338bad71e5247fbc138872",
-                "reference": "f96476035142921000338bad71e5247fbc138872",
+                "url": "https://api.github.com/repos/symfony/string/zipball/d50e862cb0a0e0886f73ca1f31b865efbb795003",
+                "reference": "d50e862cb0a0e0886f73ca1f31b865efbb795003",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2",
+                "symfony/deprecation-contracts": "^2.5|^3.0",
                 "symfony/polyfill-ctype": "~1.8",
-                "symfony/polyfill-intl-grapheme": "~1.0",
+                "symfony/polyfill-intl-grapheme": "~1.33",
                 "symfony/polyfill-intl-normalizer": "~1.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
@@ -11871,11 +11873,11 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-                "symfony/emoji": "^7.1",
-                "symfony/http-client": "^6.4|^7.0",
-                "symfony/intl": "^6.4|^7.0",
+                "symfony/emoji": "^7.1|^8.0",
+                "symfony/http-client": "^6.4|^7.0|^8.0",
+                "symfony/intl": "^6.4|^7.0|^8.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^6.4|^7.0"
+                "symfony/var-exporter": "^6.4|^7.0|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -11914,7 +11916,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v7.3.4"
+                "source": "https://github.com/symfony/string/tree/v7.4.0"
             },
             "funding": [
                 {
@@ -11934,7 +11936,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-11T14:36:48+00:00"
+            "time": "2025-11-27T13:27:24+00:00"
         },
         {
             "name": "symfony/translation",
@@ -12362,28 +12364,28 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.3.5",
+            "version": "v7.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "90208e2fc6f68f613eae7ca25a2458a931b1bacc"
+                "reference": "24dd4de28d2e3988b311751ac49e684d783e2345"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/90208e2fc6f68f613eae7ca25a2458a931b1bacc",
-                "reference": "90208e2fc6f68f613eae7ca25a2458a931b1bacc",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/24dd4de28d2e3988b311751ac49e684d783e2345",
+                "reference": "24dd4de28d2e3988b311751ac49e684d783e2345",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2",
-                "symfony/deprecation-contracts": "^2.5|^3.0",
+                "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
                 "symfony/console": "<6.4"
             },
             "require-dev": {
-                "symfony/console": "^6.4|^7.0"
+                "symfony/console": "^6.4|^7.0|^8.0"
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -12414,7 +12416,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.3.5"
+                "source": "https://github.com/symfony/yaml/tree/v7.4.1"
             },
             "funding": [
                 {
@@ -12434,7 +12436,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-27T09:00:46+00:00"
+            "time": "2025-12-04T18:11:45+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
